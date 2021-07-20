@@ -118,5 +118,32 @@ $(document).ready(function(){
     
   });
 
+  gsap.to(".bike-3",{
+    x: 900,
+    duration: 2.8,
+    scrollTrigger:{
+      trigger:'.bike-3',
+    }
+    
+  });  
+
+  gsap.to(".bike-4",{
+    x: -900,
+    duration: 4,
+    scrollTrigger:{
+      trigger:'.bike-4',
+    }
+    
+  });  
+
+  gsap.to(".bike-5",{
+    x: -180,
+    duration: 4,
+    scrollTrigger:{
+      trigger:'.bike-5',
+    }
+    
+  });    
+
 });
 
