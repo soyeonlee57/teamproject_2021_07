@@ -296,7 +296,7 @@ function Section12__init() {
 function Section13__init() {
   gsap.to(".cards", {
     opacity: 1,
-    duration: 2,
+    duration: 3,
     scrollTrigger: {
       trigger: '.section-13',
     }
