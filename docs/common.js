@@ -306,7 +306,7 @@ function Section13__init() {
 function Section14__init() {
   gsap.to(".card01", {
     opacity: 1,
-    duration: 1,
+    duration: 3,
     scrollTrigger: {
       trigger: '.section-14',
     }
@@ -315,7 +315,7 @@ function Section14__init() {
   gsap.to(".card02", {
     x: 100,
     opacity: 1,
-    duration: 2,
+    duration: 5,
     scrollTrigger: {
       trigger: '.section-14',
     }
@@ -324,7 +324,7 @@ function Section14__init() {
   gsap.to(".card03", {
     x: 180,
     opacity: 1,
-    duration: 2.4,
+    duration: 5.4,
     scrollTrigger: {
       trigger: '.section-14',
     }
@@ -333,7 +333,7 @@ function Section14__init() {
   gsap.to(".card04", {
     x: 250,
     opacity: 1,
-    duration: 2.9,
+    duration: 5.9,
     scrollTrigger: {
       trigger: '.section-14',
     }
@@ -393,6 +393,6 @@ function Section16__init() {
     Section14__init();
     Section15__init();
     Section16__init();
-  }, 300);
+  }, 500);
   
 });
