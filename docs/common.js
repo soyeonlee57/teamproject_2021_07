@@ -120,7 +120,7 @@ $(document).ready(function () {
       x: 900,
       duration: 2.8,
       scrollTrigger:{
-        trigger:'.bike-3',
+        trigger:'.section-4',
       }
     }); 
   }
@@ -129,7 +129,7 @@ $(document).ready(function () {
     x: -900,
     duration: 4,
     scrollTrigger:{
-      trigger:'.bike-4',
+      trigger:'.section-4',
     }
   }); 
 
@@ -138,7 +138,7 @@ $(document).ready(function () {
       x: -180,
       duration: 4,
       scrollTrigger: {
-        trigger: '.section-5',
+        trigger:'.section-5',
       }
     });
   }
@@ -148,7 +148,7 @@ $(document).ready(function () {
       x: -350,
       duration: 3,
       scrollTrigger: {
-        trigger: '.section_6',
+        trigger:'.section-6',
       }
     });
   
@@ -156,7 +156,7 @@ $(document).ready(function () {
       x: 350,
       duration: 4,
       scrollTrigger: {
-        trigger: '.section_6',
+        trigger:'.section-6',
       }
     });
   
@@ -165,7 +165,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 2.8,
       scrollTrigger: {
-        trigger: '.section_6',
+        trigger:'.section-6',
       }
     });
   }
@@ -175,7 +175,7 @@ $(document).ready(function () {
       x: -550,
       duration: 2,
       scrollTrigger: {
-        trigger: '.section_7',
+        trigger:'.section-7',
       }
     });
   
@@ -184,7 +184,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 2.1,
       scrollTrigger: {
-        trigger: '.section_7',
+        trigger:'.section-7',
       }
     });
   }
@@ -194,7 +194,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 2,
       scrollTrigger: {
-        trigger: '.section-8',
+        trigger:'.section-8',
       }
     });
   }
@@ -204,7 +204,7 @@ $(document).ready(function () {
       x: 750,
       duration: 3,
       scrollTrigger: {
-        trigger: '.section_9',
+        trigger:'.section-9',
       }
     });
   
@@ -213,7 +213,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 2.8,
       scrollTrigger: {
-        trigger: '.section_9',
+        trigger:'.section-9',
       }
     });
   
@@ -221,7 +221,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 2,
       scrollTrigger: {
-        trigger: '.section_9',
+        trigger:'.section-9',
       }
     });
   }
@@ -231,7 +231,7 @@ $(document).ready(function () {
         opacity: 1,
         duration: 3,
         scrollTrigger: {
-          trigger: '.section-10',
+          trigger:'.section-10',
         }
       });  
   }
@@ -241,7 +241,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 1,
       scrollTrigger: {
-        trigger: '.section-11',
+        trigger:'.section-11',
       }
     });
   
@@ -250,7 +250,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 2,
       scrollTrigger: {
-        trigger: '.section-11',
+        trigger:'.section-11',
       }
     });
   
@@ -259,7 +259,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 2.4,
       scrollTrigger: {
-        trigger: '.section-11',
+        trigger:'.section-11',
       }
     });
   
@@ -268,7 +268,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 2.9,
       scrollTrigger: {
-        trigger: '.section-11',
+        trigger:'.section-11',
       }
     }); 
 }
@@ -278,7 +278,7 @@ function Section12__init() {
     x: -750,
     duration: 3,
     scrollTrigger: {
-      trigger: '.section-12',
+      trigger:'.section-12',
     }
   });
 
@@ -287,7 +287,7 @@ function Section12__init() {
     opacity: 1,
     duration: 2.8,
     scrollTrigger: {
-      trigger: '.section-12',
+      trigger:'.section-12',
     }
   });
 
@@ -298,7 +298,7 @@ function Section13__init() {
     opacity: 1,
     duration: 3,
     scrollTrigger: {
-      trigger: '.section-13',
+      trigger:'.section-13',
     }
   });
 }
