@@ -2,7 +2,7 @@ console.log("loading")
 $(document).ready(function () {
 
   $(function () {
-    $('body').niceScroll();
+    $('body').niceScroll({scrollspeed:10});
   });
 
   function Section1__init() {
@@ -116,29 +116,29 @@ $(document).ready(function () {
   }
 
   function Section4__init() {
-    gsap.to(".bike-3",{
+    gsap.to(".bike-3", {
       x: 900,
       duration: 2.8,
-      scrollTrigger:{
-        trigger:'.section-4',
+      scrollTrigger: {
+        trigger: '.section-4',
       }
-    }); 
+    });
   }
 
-  gsap.to(".bike-4",{
+  gsap.to(".bike-4", {
     x: -900,
     duration: 4,
-    scrollTrigger:{
-      trigger:'.section-4',
+    scrollTrigger: {
+      trigger: '.section-4',
     }
-  }); 
+  });
 
   function Section5__init() {
     gsap.to(".bike-5", {
       x: -180,
       duration: 4,
       scrollTrigger: {
-        trigger:'.section-5',
+        trigger: '.section-5',
       }
     });
   }
@@ -148,24 +148,24 @@ $(document).ready(function () {
       x: -350,
       duration: 3,
       scrollTrigger: {
-        trigger:'.section-6',
+        trigger: '.section-6',
       }
     });
-  
+
     gsap.to(".bike-7", {
       x: 350,
       duration: 4,
       scrollTrigger: {
-        trigger:'.section-6',
+        trigger: '.section-6',
       }
     });
-  
+
     gsap.to(".bubble", {
       x: -350,
       opacity: 1,
       duration: 2.8,
       scrollTrigger: {
-        trigger:'.section-6',
+        trigger: '.section-6',
       }
     });
   }
@@ -175,16 +175,16 @@ $(document).ready(function () {
       x: -550,
       duration: 2,
       scrollTrigger: {
-        trigger:'.section-7',
+        trigger: '.section-7',
       }
     });
-  
+
     gsap.to(".bubble2", {
       x: -350,
       opacity: 1,
       duration: 2.1,
       scrollTrigger: {
-        trigger:'.section-7',
+        trigger: '.section-7',
       }
     });
   }
@@ -194,7 +194,7 @@ $(document).ready(function () {
       opacity: 1,
       duration: 2,
       scrollTrigger: {
-        trigger:'.section-8',
+        trigger: '.section-8',
       }
     });
   }
@@ -204,36 +204,36 @@ $(document).ready(function () {
       x: 750,
       duration: 3,
       scrollTrigger: {
-        trigger:'.section-9',
+        trigger: '.section-9',
       }
     });
-  
+
     gsap.to(".bubble3", {
       x: 750,
       opacity: 1,
       duration: 2.8,
       scrollTrigger: {
-        trigger:'.section-9',
+        trigger: '.section-9',
       }
     });
-  
+
     gsap.to(".page_9", {
       opacity: 1,
       duration: 2,
       scrollTrigger: {
-        trigger:'.section-9',
+        trigger: '.section-9',
       }
     });
   }
 
-    function Section10__init() {
-      gsap.to(".wireframe", {
-        opacity: 1,
-        duration: 3,
-        scrollTrigger: {
-          trigger:'.section-10',
-        }
-      });  
+  function Section10__init() {
+    gsap.to(".wireframe", {
+      opacity: 1,
+      duration: 3,
+      scrollTrigger: {
+        trigger: '.section-10',
+      }
+    });
   }
 
   function Section11__init() {
@@ -241,140 +241,140 @@ $(document).ready(function () {
       opacity: 1,
       duration: 1,
       scrollTrigger: {
-        trigger:'.section-11',
+        trigger: '.section-11',
       }
     });
-  
+
     gsap.to(".step02", {
       x: 120,
       opacity: 1,
       duration: 2,
       scrollTrigger: {
-        trigger:'.section-11',
+        trigger: '.section-11',
       }
     });
-  
+
     gsap.to(".step03", {
       x: 140,
       opacity: 1,
       duration: 2.4,
       scrollTrigger: {
-        trigger:'.section-11',
+        trigger: '.section-11',
       }
     });
-  
+
     gsap.to(".step04", {
       x: 240,
       opacity: 1,
       duration: 2.9,
       scrollTrigger: {
-        trigger:'.section-11',
+        trigger: '.section-11',
       }
-    }); 
-}
+    });
+  }
 
-function Section12__init() {
-  gsap.to(".bike-10", {
-    x: -750,
-    duration: 3,
-    scrollTrigger: {
-      trigger:'.section-12',
-    }
-  });
+  function Section12__init() {
+    gsap.to(".bike-10", {
+      x: -750,
+      duration: 3,
+      scrollTrigger: {
+        trigger: '.section-12',
+      }
+    });
 
-  gsap.to(".bubble4", {
-    x: -750,
-    opacity: 1,
-    duration: 2.8,
-    scrollTrigger: {
-      trigger:'.section-12',
-    }
-  });
+    gsap.to(".bubble4", {
+      x: -750,
+      opacity: 1,
+      duration: 2.8,
+      scrollTrigger: {
+        trigger: '.section-12',
+      }
+    });
 
-}
+  }
 
-function Section13__init() {
-  gsap.to(".cards", {
-    opacity: 1,
-    duration: 3,
-    scrollTrigger: {
-      trigger:'.section-13',
-    }
-  });
-}
+  function Section13__init() {
+    gsap.to(".cards", {
+      opacity: 1,
+      duration: 3,
+      scrollTrigger: {
+        trigger: '.section-13',
+      }
+    });
+  }
 
-function Section14__init() {
-  gsap.to(".card01", {
-    opacity: 1,
-    duration: 3,
-    scrollTrigger: {
-      trigger: '.section-14',
-    }
-  });
+  function Section14__init() {
+    gsap.to(".card01", {
+      opacity: 1,
+      duration: 3,
+      scrollTrigger: {
+        trigger: '.section-14',
+      }
+    });
 
-  gsap.to(".card02", {
-    x: 100,
-    opacity: 1,
-    duration: 5,
-    scrollTrigger: {
-      trigger: '.section-14',
-    }
-  });
+    gsap.to(".card02", {
+      x: 100,
+      opacity: 1,
+      duration: 5,
+      scrollTrigger: {
+        trigger: '.section-14',
+      }
+    });
 
-  gsap.to(".card03", {
-    x: 180,
-    opacity: 1,
-    duration: 5.4,
-    scrollTrigger: {
-      trigger: '.section-14',
-    }
-  });
+    gsap.to(".card03", {
+      x: 180,
+      opacity: 1,
+      duration: 5.4,
+      scrollTrigger: {
+        trigger: '.section-14',
+      }
+    });
 
-  gsap.to(".card04", {
-    x: 250,
-    opacity: 1,
-    duration: 5.9,
-    scrollTrigger: {
-      trigger: '.section-14',
-    }
-  }); 
-}
+    gsap.to(".card04", {
+      x: 250,
+      opacity: 1,
+      duration: 5.9,
+      scrollTrigger: {
+        trigger: '.section-14',
+      }
+    });
+  }
 
-function Section15__init() {
-  gsap.to(".card05", {
-    opacity: 1,
-    duration: 5,
-    scrollTrigger: {
-      trigger: '.section-15',
-    }
-  });
+  function Section15__init() {
+    gsap.to(".card05", {
+      opacity: 1,
+      duration: 5,
+      scrollTrigger: {
+        trigger: '.section-15',
+      }
+    });
 
-  gsap.to(".card06", {
-    opacity: 1,
-    duration: 7,
-    scrollTrigger: {
-      trigger: '.section-15',
-    }
-  });
+    gsap.to(".card06", {
+      opacity: 1,
+      duration: 7,
+      scrollTrigger: {
+        trigger: '.section-15',
+      }
+    });
 
-  gsap.to(".card07", {
-    opacity: 1,
-    duration: 8,
-    scrollTrigger: {
-      trigger: '.section-15',
-    }
-  });
-}
+    gsap.to(".card07", {
+      opacity: 1,
+      duration: 8,
+      scrollTrigger: {
+        trigger: '.section-15',
+      }
+    });
+  }
 
-function Section16__init() {
-  gsap.to(".page_16", {
-    opacity: 1,
-    duration: 2,
-    scrollTrigger: {
-      trigger: '.section-16',
-    }
-  });
-}
+  function Section16__init() {
+    gsap.to(".page_16", {
+      opacity: 1,
+      duration: 2,
+      scrollTrigger: {
+        trigger: '.section-16',
+      }
+    });
+  }
 
   setTimeout(function () {
     Section1__init();
@@ -394,5 +394,5 @@ function Section16__init() {
     Section15__init();
     Section16__init();
   }, 500);
-  
+
 });
