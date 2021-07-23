@@ -60,7 +60,7 @@ $(document).ready(function () {
 
     gsap.to(".research_2", {
       opacity: 1,
-      duration: 2.5,
+      duration: 2.3,
       scrollTrigger: {
         trigger: '.section-3',
       }
@@ -68,7 +68,7 @@ $(document).ready(function () {
 
     gsap.to(".icon_1", {
       opacity: 1,
-      duration: 2.8,
+      duration: 2.3,
       scrollTrigger: {
         trigger: '.section-3',
       }
@@ -76,7 +76,7 @@ $(document).ready(function () {
 
     gsap.to(".target", {
       opacity: 1,
-      duration: 2.8,
+      duration: 2.3,
       scrollTrigger: {
         trigger: '.section-3',
       }
@@ -84,7 +84,7 @@ $(document).ready(function () {
 
     gsap.to(".target_1", {
       opacity: 1,
-      duration: 3.2,
+      duration: 2.3,
       scrollTrigger: {
         trigger: '.section-3',
       }
@@ -92,7 +92,7 @@ $(document).ready(function () {
 
     gsap.to(".target_2", {
       opacity: 1,
-      duration: 3.8,
+      duration: 2.3,
       scrollTrigger: {
         trigger: '.section-3',
       }
@@ -100,7 +100,7 @@ $(document).ready(function () {
 
     gsap.to(".target_3", {
       opacity: 1,
-      duration: 4,
+      duration: 2.3,
       scrollTrigger: {
         trigger: '.section-3',
       }
@@ -108,7 +108,7 @@ $(document).ready(function () {
 
     gsap.to(".target_4", {
       opacity: 1,
-      duration: 4.5,
+      duration: 2.3,
       scrollTrigger: {
         trigger: '.section-3',
       }
@@ -154,7 +154,7 @@ $(document).ready(function () {
 
     gsap.to(".bike-7", {
       x: 350,
-      duration: 4,
+      duration: 3,
       scrollTrigger: {
         trigger: '.section-6',
       }
@@ -306,7 +306,7 @@ $(document).ready(function () {
   function Section14__init() {
     gsap.to(".card01", {
       opacity: 1,
-      duration: 3,
+      duration: 1,
       scrollTrigger: {
         trigger: '.section-14',
       }
@@ -315,7 +315,7 @@ $(document).ready(function () {
     gsap.to(".card02", {
       x: 100,
       opacity: 1,
-      duration: 5,
+      duration: 1.8,
       scrollTrigger: {
         trigger: '.section-14',
       }
@@ -324,7 +324,7 @@ $(document).ready(function () {
     gsap.to(".card03", {
       x: 180,
       opacity: 1,
-      duration: 5.4,
+      duration: 2.2,
       scrollTrigger: {
         trigger: '.section-14',
       }
@@ -333,7 +333,7 @@ $(document).ready(function () {
     gsap.to(".card04", {
       x: 250,
       opacity: 1,
-      duration: 5.9,
+      duration: 2.8,
       scrollTrigger: {
         trigger: '.section-14',
       }
@@ -343,7 +343,7 @@ $(document).ready(function () {
   function Section15__init() {
     gsap.to(".card05", {
       opacity: 1,
-      duration: 5,
+      duration: 2,
       scrollTrigger: {
         trigger: '.section-15',
       }
@@ -351,7 +351,7 @@ $(document).ready(function () {
 
     gsap.to(".card06", {
       opacity: 1,
-      duration: 7,
+      duration: 2,
       scrollTrigger: {
         trigger: '.section-15',
       }
@@ -359,7 +359,7 @@ $(document).ready(function () {
 
     gsap.to(".card07", {
       opacity: 1,
-      duration: 8,
+      duration: 2,
       scrollTrigger: {
         trigger: '.section-15',
       }
